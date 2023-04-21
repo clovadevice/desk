@@ -1,0 +1,52 @@
+
+qcom,MarkT_IFS700N_3000mAh {
+	/* #3211842_MarkT_IFS700N_3000mAh_averaged_MasterSlave_Nov28th2017*/
+	/* battery type */
+	markt,max-battery-type = <1>;
+
+	qcom,max-voltage-uv_0 = <4200000>;
+	qcom,nom-batt-capacity-mah_0 = <3000>;
+	qcom,batt-id-kohm_0 = <100>;
+	qcom,battery-beta = <3380>;
+	qcom,battery-type_0 = "MarkT_IFS700N_3000mAh";
+	qcom,chg-rslow-comp-c1_0 = <3583414>;
+	qcom,chg-rslow-comp-c2_0 = <4989515>;
+	qcom,chg-rs-to-rslow_0 = <911716>;
+	qcom,chg-rslow-comp-thr_0 = <0xA3>;
+	qcom,checksum = <0x862A>;
+	qcom,gui-version = "PMI8950GUI - 2.0.0.16";
+	qcom,fg-profile-data_0 = [
+		 CE 83 10 77 
+		 C6 7A 66 74 
+		 78 83 DC 7C 
+		 07 90 10 96 
+		 94 82 06 92 
+		 B5 AF 94 BA 
+		 58 18 05 88 
+		 48 7D 95 80 
+		 84 76 4B 83 
+		 CA 70 5C 5F 
+		 D7 77 68 82 
+		 88 98 D3 B6 
+		 AF C2 66 0E 
+		 BE 05 09 60 
+		 44 6B 71 FD 
+		 41 47 4B 3D 
+		 18 40 00 00 
+		 DD 3F 49 1B 
+		 EA 2E 00 00 
+		 00 00 00 00 
+		 00 00 00 00 
+		 67 70 A4 70 
+		 7A 7A 4A 88 
+		 7B 6F 5C 50 
+		 A8 70 96 80 
+		 1B 6F D5 50 
+		 00 00 00 00 
+		 0A A4 49 B5 
+		 49 A0 71 0C 
+		 28 00 FF 36 
+		 F0 11 30 03 
+		 00 00 00 00 
+	];
+};
